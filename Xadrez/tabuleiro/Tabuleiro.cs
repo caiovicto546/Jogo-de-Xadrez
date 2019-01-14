@@ -16,5 +16,10 @@ namespace Xadrez.tabuleiro
             this.Coluna = coluna;
             this.Pecas = new Peca[Linha, Coluna];
         }
+
+        public Peca Peca(int linha, int coluna)
+        {
+            return Pecas[linha, coluna];
+        }
     }
 }
