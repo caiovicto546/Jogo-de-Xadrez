@@ -9,6 +9,7 @@ namespace Xadrez.Enum
         Preto,
         Vermelho,
         Azul,
-        Amarelo
+        Amarelo,
+        Branco
     }
 }
